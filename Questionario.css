@@ -3,6 +3,10 @@
   padding: 20px 30px;
 }
 
+.logo{
+	width: 200;
+	height: 100;
+}
 
 li{
 	font-size: 20px;
