@@ -16,6 +16,10 @@ li{
 	font-size: 20px;
 }
 
+.checkbox{
+	margin: 20px 0;
+}
+
 nav{
 	position: absolute;
 	top: 60px;
