@@ -12,6 +12,48 @@ li{
 	font-size: 20px;
 }
 
+h2{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	background-color: lightgray ; 
+	padding: 8px;
+}
+.letra{
+	text-align: center;
+	border-bottom: 2px solid #000000;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+.titulo{
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	text-transform: uppercase;
+}
+
+.subtitulo{
+	font-size: 14px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.subtitulo-table{
+	text-align: left;
+}
+
+.texto-tabela{
+	width: 150px;
+	text-align: center;
+}
+
+.caixa{
+	text-align: center;
+}
+
 .checkbox{
 	margin: 20px 0;
 }
@@ -55,6 +97,9 @@ nav a{
 
 table{
 	margin: 20px 0 40px;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 30px 0;
 }
 
 thead{
