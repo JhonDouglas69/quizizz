@@ -3,11 +3,12 @@
   padding: 20px 30px;
 }
 
-.logo{
-	width: 200;
-	height: 100;
+.caixa-nota{
+  width: 80px;
+  padding: 5px;
+  text-align: center;
 }
-
+	  
 li{
 	font-size: 20px;
 }
@@ -26,6 +27,10 @@ h2{
 	border-bottom: 2px solid #000000;
 	padding-bottom: 15px;
 	margin-bottom: 20px;
+} 
+
+.centro{
+	text-align: center;
 }
 
 .titulo{
@@ -50,10 +55,6 @@ h2{
 	text-align: center;
 }
 
-.caixa{
-	text-align: center;
-}
-
 .checkbox{
 	margin: 20px 0;
 }
@@ -62,9 +63,6 @@ h2{
 	font-size: 20px;
 }
 
-.checkbox{
-	margin: 20px 0;
-}
 
 nav{
 	position: absolute;
@@ -128,18 +126,18 @@ form label {
 }
 
 
-/* Configura o estilo padrão de todas as caixas de texto */
+
 form input {
     display: inline-block;
     padding: 10px;
-    margin: 0 35px 15px 0;      /* Espaço entre as linhas do formulário */
+    margin: 0 35px 15px 0;      
     border: 1px solid #999999;
     border-radius: 4px;
-    box-sizing: border-box; /* Garante que o padding não aumente o tamanho da caixa */
+    box-sizing: border-box; 
     vertical-align: middle;
 }
 
-/*form input, form textarea{*/
+
 .input-padrao{	
 	padding: 10px;
 	width: 90%;
@@ -157,12 +155,9 @@ form input {
 	border-radius: 5px;
 	transition: 1s all;
 	cursor: pointer;
-	/*CSS3 permite trabalhar com transições que antes só era possivel no javascript*/
+	
 }
 .Enviar:hover{
 	background-color: darkorange;
-
-	/*transform: rotate(0.2deg)*/
-	/*a propriedade teransform do CSS3 .Permite adicionar uma serie de efeitos como aumento, rotação etc.*/
-	transform: scale(1.01);/*utiliza % como referencia 1,05= 105%*/
+	transform: scale(1.01);
 	}
